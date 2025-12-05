@@ -1,0 +1,145 @@
+.heading-1{color:rgb(13, 13, 98); font-family: "IBM Plex Mono", monospace; font-size: 70px;
+   max-width: 800px; margin: 0 auto; text-align: center;   }
+
+body{background-image: url(ipt-bg.jpeg) ;
+background-size: cover;  }
+
+.intro{color:rgb(13, 13, 98); font-size: 30px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
+  margin: 0 auto; text-align: center;  margin-top: 30px;}
+
+.dates{color:rgb(13, 13, 98); font-size: 30px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
+  margin: 0 auto; text-align: center;  margin-top: 30px;}
+
+
+footer{color:rgb(13, 13, 98); font-size: 20px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
+  margin: 0 auto; text-align: center;  margin-top: 70px;}
+
+img{width: 100px;}
+.insta{width: 53px;}
+.email{width: 60px;}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;              
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+  cursor: grab;
+}
+
+.modal-header {
+  background: #6568ca;
+  color: white;
+  padding: 10px;
+  cursor: grab;
+  user-select: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-image {
+  width: 100%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 0px;
+}
+
+
+.close {
+  color: #bfc0dc;
+  position: absolute;
+  top: 0.5px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#openModalBtn{ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0.5rem 1rem ;
+ font-size: 18px;
+ color: #ffffff;
+ border-radius: 0.25rem;
+ cursor:pointer;
+ margin-top: 40px;
+ font-family: "IBM Plex Mono", monospace;
+  box-shadow: 0 0 #6568ca,
+              0 0px #6568ca,
+              0 1px #6568ca,
+              0 2px #6568ca,
+              0 3px #6568ca,
+              0 4px #6568ca,
+              0 5px #6568ca,
+              0 6px #6568ca,
+              0 7px #6568ca,
+              0 8px #6568ca,
+              2px 4px 4px #bfc0dc,
+              0 -1px 4px #bfc0dc;
+
+ border-color: #bfc0dc;
+ background: #8589ff;
+ backface-visibility: hidden;
+ border: 1px solid #bfc0dc;
+ display: block;
+ font-weight: 400;
+ text-align: center;
+ transform: translate3d(0,0,5px);
+ transform-style: preserve-3d;
+ transition: all 0.25s cubic-bezier(0.2,1,0.2,1);
+}
+
+
+
+@media (max-width: 768px) {
+
+
+  body {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .heading-1 {
+    font-size: 40px;   
+    max-width: 90%;
+  }
+
+  .modal-content {
+    position: absolute;         
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;               
+  max-width: 90%;             
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+  padding: 0;
+  }
+
+ .modal-header {
+  touch-action: none; 
+ }
+}
+
+
