@@ -10,7 +10,7 @@ background-size: cover;  }
 .dates{color:rgb(13, 13, 98); font-size: 30px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
   margin: 0 auto; text-align: center;  margin-top: 30px;}
 
-.follow{color:rgb(13, 13, 98); font-size: 20px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
+.follow{ color:rgb(13, 13, 98); font-size: 20px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
   margin: 0 auto; text-align: center;  margin-top: 30px;}
 
 footer{color:rgb(13, 13, 98); font-size: 20px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
@@ -143,6 +143,7 @@ img{width: 100px;}
   touch-action: none; 
  }
 }
+
 
 
 
