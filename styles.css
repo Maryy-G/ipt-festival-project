@@ -14,7 +14,7 @@ background-size: cover;  }
   margin: 0 auto; text-align: center;  margin-top: 30px;}
 
 footer{color:rgb(13, 13, 98); font-size: 20px; font-family: "IBM Plex Mono", monospace; max-width: 800px; 
-  margin: 0 auto; text-align: center;  margin-top: 70px;}
+  margin: 0 auto; text-align: center;  margin-top: 20px;}
 
 img{width: 100px;}
 .insta{width: 53px;}
@@ -143,6 +143,7 @@ img{width: 100px;}
   touch-action: none; 
  }
 }
+
 
 
 
