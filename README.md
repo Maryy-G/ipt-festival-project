@@ -2,4 +2,6 @@ Hey! This is one of my first fRonTenD projects and I had so much fun building it
 
 I wanted a fun and interactive way to share our participation with everyone. PlUs it was a great way to practice my skills!
 
+Check it out here: https://maryy-g.github.io/ 
+
 ByEe 
